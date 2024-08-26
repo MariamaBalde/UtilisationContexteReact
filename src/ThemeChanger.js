@@ -15,7 +15,7 @@ function ThemeChanger() {
                 setTheme({couleurPrincipale:color,police:font})
             }}>
                 <div className="mb-3">
-                    <label  className="form-label">Couleur</label>
+                    <label className="form-label text-start">Couleur</label>
                     <input type="text" 
                     value={color}
                     onChange={(e)=>{
